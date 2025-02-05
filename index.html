@@ -80,15 +80,15 @@
         yesButton.style.width = `${buttonWidth}px`;
         yesButton.style.fontSize = `${fontSize}px`; // Update font size
         if (noClickCount < 6) {
-          noButton.textContent = ["No", "Are you sure?", "Baoabo, please...", "Don't do this to me :(", "You're breaking my heart", "I'm gonna cry..."][noClickCount];
+          noButton.textContent = ["No", "Are you sure?", "Luh! Legit???", "Don't do this to me :(", "You're breaking my heart", "I'm gonna cry..."][noClickCount];
         }
       }
     });
   
     yesButton.addEventListener('click', () => {
       imageDisplay.src = './images/image7.gif'; // Change to image7.gif
-      <p> imageDisplay.src='./images/sheesh1.png';
-      valentineQuestion.textContent = "Sheesh sa wrist! Full details will be disclosed in no less than 15 days upon your arrival in the Philippines."; // Change the question text
+      <p> imageDisplay.src='./images/sheesh1.png'</p>;
+      valentineQuestion.textContent = "Sheesh sa wrist! <br>Full details will be disclosed in no less than 15 days upon your arrival in the Philippines."</br>; // Change the question text
       responseButtons.style.display = 'none'; // Hide both buttons
       confetti(); // Trigger confetti animation
     });
